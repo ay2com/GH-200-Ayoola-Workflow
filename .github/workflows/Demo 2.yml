@@ -3,9 +3,9 @@ jobs:
   one:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "A" > note.txt
-      - run: cat note.txt
+      -  run: echo "A" > note.txt
+      -  run: cat note.txt
   two:
-   runs-on: ubuntu-latest
-   steps:
-    - run: cat note.txt
+    runs-on: ubuntu-latest
+    steps:
+      - run: cat note.txt
