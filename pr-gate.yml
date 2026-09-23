@@ -1,7 +1,7 @@
 name: ay2com-patch-1
 on:
   pull_request:
-    branches: [ay2com-patch-1]
+    branches: [main]
   workflow_dispatch:
 jobs:
   check:
